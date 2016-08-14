@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\begin{pmatrix}
+  \begin{pmatrix}
+    a & b \\
+    c & d
+  \end{pmatrix}
+  *
+  \begin{pmatrix}
+    e & f \\
+    g & h
+  \end{pmatrix}
+\end{pmatrix}
+*
+\begin{pmatrix}
+  i & j \\
+  k & l
+\end{pmatrix}
+=
+\begin{pmatrix}
+  ae+bg & af+bh \\
+  ce+dg & cf+dh
+\end{pmatrix}
+*
+\begin{pmatrix}
+  i & j \\
+  k & l
+\end{pmatrix}
+\\
+\begin{pmatrix}
+  ae+bg & af+bh \\
+  ce+dg & cf+dh
+\end{pmatrix}
+*
+\begin{pmatrix}
+  i & j \\
+  k & l
+\end{pmatrix}
+=
+\begin{pmatrix}
+  ((ae+bg)i)+((af+bh)k) & ((ae+bg)j)+((af+bh)l) \\
+  ((ce+dg)i)+((cf+dh)k) & ((ce+dg)j)+((cf+dh)l)
+\end{pmatrix}
+\\
+=
+\begin{pmatrix}
+  aei+bgi+afk+bhk & aej+bgj+afl+bhl \\
+  cei+dgi+cfk+dhk & cej+dgj+cfl+dhl
+\end{pmatrix}
+\end{document}
